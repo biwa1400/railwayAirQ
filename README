@@ -1,0 +1,6 @@
+1. Add sensors' driving code in "class Sensors"
+2. Change Sample interval in:
+	# setting for sample times
+        self.samplingInterval = 60*100 #unit 10 ms 60s*100  = 1min
+        self.groupSize_Boom_Down = 3 #times
+        self.groupSize_Boom_Up = 15 # times
